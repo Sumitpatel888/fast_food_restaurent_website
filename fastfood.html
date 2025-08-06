@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fstfood.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container nav-container">
+                <h1><b>श्री नाथ</b></h1>
+                <ul class="nav-link">
+                    <li><a href="#Home" style="font-size: 30px; color: black;" >Home</a></li>
+                    <li><a href="#Menu" style="font-size: 30px; color: black;" >Menu</a></li>
+                    <li><a href="login.html" style="font-size: 30px; color: black;">Login</a></li>
+                    <li><a href="signup.html" style="font-size: 30px; color: black;">Sign-up</a></li>
+                    <li><a href="#Contact" style="font-size: 30px; color: black;">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+      
+        
+        <section class="products-container">
+
+            <div id="product-row">
+              <div class="text-4xl"><h2 >Delicious Food, Fast Service &hearts;</h2>
+              <div class="category-filter container">
+                <label for="category" style="font-weight: 400;"><b style="font-size: 30px;">Choose a category:</b></label>
+                <select name="category" id="category" onchange="location = this.value;">
+                  <option value="#" >All Categories</option>
+                  <option value="School.html">North-Indian</option>
+                  <option value="College.html">South-Indian</option>
+                  <option value="Children.html">Chineese</option>
+                </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-column">
+            <!-- Product card 1 -->
+             <article class="product-card">
+                <img src="burger.jpg" alt="delicious food">
+                <p>A bite full of flavor, stacked with joy.</p>
+                <button type="button">Add to Cart</button>
+             </article>
+            
+        
+            <!-- Product card 2 -->
+             <article class="product-card">
+                <img src="samosa1.jpg" alt="delicious food">
+                <p>A crispy hug with a spicy heart.</p>
+                <button type="button">Add to Cart</button>
+             </article>
+            
+            <!-- Product card 3 -->
+            <article class="product-card">
+                <img src="dosa.jpg" alt="delicious food">
+                <p>Crisp, golden, and filled with South Indian love.</p>
+                <button type="button">Add to Cart</button>
+             </article>
+
+             <article class="product-card">
+                <img src="momos.jpg" alt="delicious food">
+                <p>Little pockets of happiness, steamed to perfection.</p>
+                <button type="button">Add to Cart</button>
+             </article>
+
+             <article class="product-card">
+                <img src="noodles.jpg" alt="delicious food">
+                <p>Slurp up the joy — noodles tangled with irresistible flavors</p>
+                <button type="button">Add to Cart</button>
+             </article>
+
+             </div>
+
+        </section>
+
+
+  
+   </main>
+
+   <footer>
+    <div id="container-foot">
+      <section id="about">
+        <h2>About us</h2>
+        <p>We are passionate about serving delicious food with fast and friendly service. Our menu features a variety of North-Indian, South-Indian, and Chinese dishes to satisfy every craving. Visit us for a memorable food experience!</p>
+      </section>
+      <section id="container-for">
+        <h2>Inquiry Form</h2>
+        <form action="#" method="post">
+          <label for="name">Name :</label>
+          <input type="text" id="name" name="name" placeholder="Full name" required>
+
+          <label for="password">Password :</label>
+          <input type="password" id="name" name="name" placeholder="Password" required>
+
+          <label for="email">Email :</label>
+          <input type="email" id="name" name="name" placeholder="email" required>
+          <button type="submit" style="padding: 10px; border-radius: 20px;">Submit</button> 
+        </form>
+      </section>
+    </div>
+    
+    <div id="footer-bottom">
+    <p>&copy; 2025 Shri Nath Fast Food | All Rights Reserved</p>
+  </div>
+   </footer>
+
+   
+
+</body>
+</html>
